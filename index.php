@@ -68,6 +68,15 @@
            color:    #C7C7C7;
         }
 
+        #footer {
+            background-color: #39456b;
+            color: white;
+            height: 32px;
+            padding-top: 12px;
+            border: solid 1px white;
+            margin-top: 19px;
+        }
+
         @media (max-width: 600px) {
             button {
                 width: 50%;
@@ -104,7 +113,7 @@
     <p id="response"></p>
     <button id="btnCopy" style="display: none">Copy To Clipboard</button>
 
-    <div id="footer">Made by Franco Ferraguti, 2017</div>
+    <div id="footer">Made by Franco Ferraguti - Code @ github.com/francoFerraguti/text-to-emoji</div>
 </body>
 </html>
 
